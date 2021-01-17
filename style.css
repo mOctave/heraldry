@@ -1,0 +1,115 @@
+body {
+    background-color: bisque;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+.linkbtn {
+    min-width: 80px;
+    border: none;
+    color: slategrey;
+    background-color: transparent;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
+    vertical-align: text-top;
+}
+
+.linkbtn:hover {
+    background-color: silver;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 80px;
+    border: none;
+    color: slategrey;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    margin: 4px;
+    vertical-align: text-top;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+
+.dropdown-content a {
+    color: slategrey;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: silver;
+}
+
+.basic {
+    min-width: 80px;
+    border: none;
+    color: saddlebrown;
+    background-color: transparent;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+h6 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.crestimg {
+    margin: 5px;
+}
+
+.authortext {
+    font-style: italic;
+}
+
+.basic a {
+    text-decoration: none;
+    color: #431;
+}
